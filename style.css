@@ -1,0 +1,16 @@
+/* 테이블 헤더 배경색 변경 */
+.awesome-table thead th {
+  background-color: #4CAF50; /* 원하는 색상 */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+/* NEW 배지 스타일 */
+.awesome-table td:has(span:contains("NEW")) {
+  background-color: #ff5722;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
