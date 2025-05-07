@@ -1,16 +1,19 @@
-/* 테이블 헤더 배경색 변경 */
+/* 테이블 헤더 배경색 변경 (주황색) */
 .awesome-table thead th {
-  background-color: #4CAF50; /* 원하는 색상 */
+  background-color: #FF9800; /* 주황색 */
   color: white;
   font-weight: bold;
   text-align: center;
   padding: 10px;
+  border: 1px solid #e67e22; /* 테두리 색상 */
 }
 
-/* NEW 배지 스타일 */
-.awesome-table td:has(span:contains("NEW")) {
-  background-color: #ff5722;
+/* NEW 배지 스타일 (주황색) */
+.awesome-table td span:contains("NEW") {
+  background-color: #FF9800;
   color: white;
   border-radius: 5px;
   padding: 2px 5px;
+  font-size: 12px;
+  font-weight: bold;
 }
